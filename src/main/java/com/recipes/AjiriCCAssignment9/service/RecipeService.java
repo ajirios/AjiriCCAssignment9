@@ -29,7 +29,6 @@ public class RecipeService
 			recipe.setCookingMinutes(Integer.parseInt(record.get(0)));
 			recipe.setDairyFree(Boolean.parseBoolean(record.get(1)));
 			recipe.setGlutenFree(Boolean.parseBoolean(record.get(2)));
-			System.out.println(record.get(0) + "  " + record.get(3));
 			recipe.setInstructions(record.get(3));
 			recipe.setPreparationMinutes(Double.parseDouble(record.get(4)));
 			recipe.setPricePerServing(Double.parseDouble(record.get(5)));
